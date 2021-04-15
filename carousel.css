@@ -1,0 +1,47 @@
+body {
+    background-color: #222;
+    text-align: center;
+}
+
+#carousel {
+    margin: auto;
+    border: 5px solid #555;
+    width: 1000px;
+    height: 800px;
+    color: white;
+    font-size: 50px;
+}
+
+#carousel h4 {
+    margin: 5px;
+}
+
+
+#carouselSlides {
+    margin: auto;
+    border: 2px solid white;
+    width: 800px;
+    height: 600px;
+}
+
+#carousel #next  {
+    position: relative;
+    right: -330px;
+    top: -400px;
+    background-color: transparent;
+    border: none;
+   
+    
+
+}
+
+#carousel #prev  {
+    position: relative;
+    left: -290px;
+    top: -400px;
+    background-color: transparent;
+    border: none;
+}
+
+
+

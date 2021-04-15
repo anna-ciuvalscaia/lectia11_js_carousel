@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel JS</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body onkeydown="action()">
+
+    <div id="carousel">
+        <div id="carouselSlides" class="slides"></div>
+        <div id="carouselTitles"></div>
+
+    <button onclick="prev()" id="prev"><img src="images/left.png" alt=""></button>
+    <span id="carouselIndicators"></span>
+    <button onclick="next()" id="next"><img src="images/right.png" alt=""></button>
+
+    <button onclick="play()"  id="carouselPlay"></button>
+    </div>
+
+    
+
+    <script src="carousel.js"></script>
+    
+</body>
+</html>
